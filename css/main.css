@@ -1,0 +1,436 @@
+﻿html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+.b-header {
+	color: #153450;
+	padding: 20px 0 0 0;
+}
+
+.b-small-logo {
+	line-height: 220px;
+	font-size: 50px;
+}
+
+.b-social-network-list {
+	margin: -70px 0 20px 0;
+	text-align: right;
+}
+
+.b-social-network-list__item {
+	display: inline-block;
+}
+
+.b-social-network-list__link {
+	display: block;
+	background: none repeat scroll 0 0 #153450;
+	border-radius: 3px 3px 3px 3px;
+	width: 60px;
+	padding: 5px 0 5px 0;
+	text-align: center;
+	vertical-align: middle;
+}
+
+	.b-social-network-list__link:hover {
+		background: none repeat scroll 0 0 #1d466d;
+	}
+
+.b-header-menu {
+	font-size: 20px;
+	line-height: 40px;
+	margin: 0 0 20px 0;
+}
+
+.b-header-menu__item {
+	display: inline-block;
+}
+
+.b-header-menu__item_active {
+	border: 1px solid #8FBCDB;
+}
+
+.b-header-menu__link {
+	color: #153450;
+	display: inline-block;
+	padding: 0 20px 0 20px;
+	text-decoration: none;
+}
+
+	.b-header-menu__link:hover {
+		background: #8FBCDB;
+	}
+
+.b-content {
+	padding-bottom: 400px;
+}
+
+.b-conteiner {
+	width: 970px;
+	margin: 0 auto;
+}
+
+.b-wrapper {
+	min-height: 100%;
+	position: relative;
+}
+
+.b-footer {
+	width: 100%;
+	height: 360px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: #294052;
+	color: #F4D6BC;
+}
+
+.b-page-title {
+	background: #447294;
+	line-height: 100px;
+	font-size: 50px;
+}
+
+.b-page-title__text {
+	color: #153450;
+}
+
+.b-row {
+	/*margin: 0 0 20px 0;*/
+}
+
+.b-row_divided {
+	border-top: 1px solid #447294;
+}
+
+/*.b-row + .b-row_divided {
+	border-top: 1px solid #153450;
+}*/
+
+.b-row_inportant {
+	background: #F8E4CC;
+}
+
+.b-row, .b-row_inportant, .b-row_divided {
+	padding: 40px 0 40px 0;
+}
+
+	.b-row:after, .b-row_divided:after, .b-row_inportant:after {
+		clear: both;
+	}
+
+	.b-row:before, .b-row:after, .b-row_divided:before, .b-row_divided:after, .b-row_inportant:before, .b-row_inportant:after {
+		content: " ";
+		display: table;
+		line-height: 0;
+	}
+
+.b-row__title {
+	color: #153450;
+	font-size: 40px;
+	line-height: 50px;
+	margin: 0 0 20px 0;
+}
+
+.b-row__text {
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.b-row__col2 {
+	float: left;
+	width: 33.33%;
+}
+
+.b-row__col3 {
+	float: left;
+	width: 50%;
+}
+
+.b-row__col4 {
+	float: left;
+	width: 66.66%;
+}
+
+.b-row__col6 {
+	float: left;
+	width: 100%;
+}
+
+.b-short-bio {
+	/*margin: 40px 0 0 0;*/
+}
+
+.b-short-bio__img {
+	display: block;
+	margin: 0 auto;
+}
+
+.b-short-bio__text {
+	/*color: #447294;*/
+	font-size: 20px;
+	line-height: 30px;
+	margin: 0 0 20px 0;
+}
+
+.b-short-bio__text_important {
+	color: #153450;
+	font-size: 40px;
+	line-height: 50px;
+	margin: 0 0 20px 0;
+}
+
+.b-info-box {
+	margin: 0 0 0 100px;
+}
+
+.b-info-box_simple {
+	text-align: center;
+	margin: 0 0 0 0;
+}
+
+.b-info-box__img {
+	margin: 0 0 -50px -100px;
+}
+
+.b-info-box__img_simple {
+	margin: 0 0 20px 0;
+}
+
+.b-info-box__title {
+	color: #294052;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 40px;
+	margin: 0 0 20px 0;
+}
+
+.b-info-list {
+	list-style: disc;
+	list-style-position: inside;
+}
+
+.b-info-item {
+	font-size: 20px;
+	line-height: 30px;
+	color: #294052;
+}
+
+.b-full-bio {
+}
+
+.b-full-bio__img {
+	margin: 0 0 50px 0;
+}
+
+.b-full-bio__text {
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.b-full-bio__text_important {
+	font-weight: inherit;
+	font-size: 30px;
+	line-height: 40px;
+}
+
+.b-full-bio__name {
+	color: #153450;
+}
+
+.b-footer-menu {
+	list-style: none;
+	margin: 0 0 0 50px;
+}
+
+.b-footer-menu__item {
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.b-footer-menu__link {
+	text-decoration: none;
+	color: #F4D6BC;
+}
+
+	.b-footer-menu__link:hover {
+		color: #FFFFFF;
+	}
+
+.b-copyright {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.b-copyright__link {
+	color: #8FBCDB;
+	text-decoration: none;
+}
+
+	.b-copyright__link:hover {
+		color: #FFFFFF;
+	}
+
+.b-contact-info {
+}
+
+.b-contact-info__item {
+	font-size: 20px;
+	line-height: 40px;
+}
+
+.b-large-logo {
+	margin: -20px 0 0 0;
+}
+
+.b-quote-box {
+	position: relative;
+	padding: 0 50px 0 50px;
+}
+
+.b-quote-list {
+	font-size: 20px;
+	line-height: 30px;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+
+.b-quote-list__item {
+	display: none;
+	position: relative;
+}
+
+	.b-quote-list__item.active {
+		display: block;
+	}
+
+	.b-quote-list__item.next {
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 100%;
+		width: 100%;
+	}
+
+.b-quote__text {
+	color: #153450;
+	height: 100px;
+}
+
+.b-quote__cite {
+	color: #447294;
+}
+
+.b-quote-list__nav {
+	position: absolute;
+	z-index: 100;
+	width: 50px;
+	bottom: 0;
+	top: 0;
+	cursor: pointer;
+}
+
+.b-quote-list__nav_prev {
+	background: url(../img/prev_small.png) no-repeat center;
+	left: 0;
+}
+
+.b-quote-list__nav_next {
+	background: url(../img/next_small.png) no-repeat center;
+	right: 0px;
+}
+
+.g-icon {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.g-icon-phone {
+	background: url(../img/phone-small.png) 0 0 no-repeat;
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+}
+
+.g-icon-email {
+	background: url(../img/phone-small.png) 0 0 no-repeat;
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+}
+
+.g-icon-skype {
+	background: url(../img/skype-small.png) 0 0 no-repeat;
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+}
+
+.g-icon-address {
+	background: url(../img/home-small.png) 0 0 no-repeat;
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+}
+
+.g-qualification {
+	background: url(../img/work.png) 0 0 no-repeat;
+	width: 60px;
+	height: 50px;
+}
+
+.g-experience {
+	background: url(../img/work.png) 0 0 no-repeat;
+	width: 60px;
+	height: 50px;
+}
+
+.g-professional {
+	background: url(../img/work.png) 0 0 no-repeat;
+	width: 60px;
+	height: 50px;
+}
+
+.g-small-logo {
+	background: url(../img/logo.png) 0 0 no-repeat;
+	width: 200px;
+	height: 200px;
+}
+
+.g-facebook_dark {
+	background: url(../img/social_white.png) 0 0 no-repeat;
+	width: 24px;
+	height: 50px;
+}
+
+.g-twitter_dark {
+	background: url(../img/social_white.png) -35px 0 no-repeat;
+	width: 31px;
+	height: 50px;
+}
+
+.g-linkedin_dark {
+	background: url(../img/social_white.png) -71px 0 no-repeat;
+	width: 44px;
+	height: 50px;
+}
+
+.g-work {
+	background: url(../img/work.png) 0 0 no-repeat;
+	width: 60px;
+	height: 50px;
+}
+
+.g-next {
+	background: url(../img/next_small.png) 0 0 no-repeat;
+	width: 20px;
+	height: 32px;
+}
+
+.g-prev {
+	background: url(../img/prev_small.png) 0 0 no-repeat;
+	width: 20px;
+	height: 32px;
+}
