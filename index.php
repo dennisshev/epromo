@@ -34,16 +34,16 @@
 				</ul>
 				<menu class="b-header-menu">
 					<li class="b-header-menu__item b-header-menu__item_active">
-						<a href="index.html" class="b-header-menu__link">Home</a>
+						<a href="/" class="b-header-menu__link">Home</a>
 					</li>
 					<li class="b-header-menu__item">
-						<a href="index.html" class="b-header-menu__link">About</a>
+						<a href="about.html" class="b-header-menu__link">About</a>
 					</li>
 					<li class="b-header-menu__item">
-						<a href="index.html" class="b-header-menu__link">Services</a>
+						<a href="/" class="b-header-menu__link">Services</a>
 					</li>
 					<li class="b-header-menu__item">
-						<a href="index.html" class="b-header-menu__link">Contact</a>
+						<a href="/" class="b-header-menu__link">Contact</a>
 					</li>
 				</menu>
 			</div>
